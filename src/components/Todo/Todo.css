@@ -1,0 +1,39 @@
+.todo{
+    background-color: #eee;
+    width: 40rem;
+    min-height: 60rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.todo__header{
+    background: #eee;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+
+}
+
+.todo__list{
+    background: #eee;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding:1rem ;
+}
+
+.todo__item{
+    list-style: none;
+    padding: 2rem;
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.2);
+}
+.todo__item--done{
+   text-decoration: line-through;
+}
+
+.todo__item:hover{
+    background-color: hsl(0, 0%, 87%);
+    cursor: pointer;
+}
